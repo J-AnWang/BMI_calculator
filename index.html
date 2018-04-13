@@ -11,6 +11,48 @@
 </head>
 
 <body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/BMICLogo.png" alt="logo">
+            </div>
+
+            <div class="textarea">
+                <label for="height">身高 cm</label>
+                <input type="number" name="height" placeholder="請輸入身高（注意單位）">
+
+                <label for="weight">體重 kg</label>
+                <input type="number" name="weight" placeholder="請輸入體重 （注意單位）">
+            </div>
+            <div class="submit">
+                <button>看結果</button>
+            </div>
+            <div class="result">
+                <p class="num">23.8</p>
+                <p class="bmi">BMI</p>
+                <p class="text"></p>
+                <img src="imgs/icons_loop.png" alt="loop">
+            </div>
+            <button class="reset">重新輸入</button>
+        </div>
+    </header>
+
+    <section id="content">
+        <div class="container">
+            <h2>BMI紀錄</h2>
+            <div class="report">
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="logo">
+            <img src="imgs/BMIClogo_black.png" alt="logo">
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/all.js"></script>
 </body>
 
