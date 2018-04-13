@@ -13,36 +13,38 @@
 <body>
     <header id="header">
         <div class="container">
-            <div class="logo">
+            <div class="item logo">
                 <img src="imgs/BMICLogo.png" alt="logo">
             </div>
 
-            <div class="textarea">
+            <div class="item textarea">
                 <label for="height">身高 cm</label>
                 <input type="number" name="height" placeholder="請輸入身高（注意單位）">
 
                 <label for="weight">體重 kg</label>
                 <input type="number" name="weight" placeholder="請輸入體重 （注意單位）">
+                <div class="reset">
+                    <button>重新輸入</button>
+                </div>
             </div>
-            <div class="submit">
+            <div class="item submit">
                 <button>看結果</button>
             </div>
-            <div class="result">
-                <p class="num">23.8</p>
-                <p class="bmi">BMI</p>
-                <p class="text"></p>
-                <img src="imgs/icons_loop.png" alt="loop">
+            <div class="item">
+                <div class="result">
+                    <p class="num"></p>
+                    <p class="bmi">BMI</p>
+                    <p class="text"></p>
+                    <img src="imgs/icons_loop.png" alt="loop">
+                </div>
             </div>
-            <button class="reset">重新輸入</button>
         </div>
     </header>
 
     <section id="content">
         <div class="container">
-            <h2>BMI紀錄</h2>
-            <div class="report">
-
-            </div>
+            <h2>BMI 紀錄</h2>
+            <div class="reports"></div>
         </div>
     </section>
 
