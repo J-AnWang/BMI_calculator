@@ -246,7 +246,7 @@ html {
         -webkit-box-shadow: 0 0 10px #FED365 ;
         -moz-box-shadow: 0 0 10px #FED365 ;
         box-shadow: 0 0 10px #FED365 ; }
-    #header .textarea .reset {
+    #header .textarea .btn-group {
       opacity: 0;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -257,23 +257,25 @@ html {
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s; }
-      #header .textarea .reset button {
+      #header .textarea .btn-group button {
         width: 20%;
         background: #FED365;
         border: none;
         border-radius: 5px;
         color: #424242;
         cursor: pointer; }
-        #header .textarea .reset button:hover {
+        #header .textarea .btn-group button.reset {
+          margin-right: 10px; }
+        #header .textarea .btn-group button:hover {
           -webkit-box-shadow: 0 0 10px #FED365 ;
           -moz-box-shadow: 0 0 10px #FED365 ;
           box-shadow: 0 0 10px #FED365 ; }
-        #header .textarea .reset button:active {
+        #header .textarea .btn-group button:active {
           -webkit-box-shadow: none;
           box-shadow: none; }
-        #header .textarea .reset button:focus {
+        #header .textarea .btn-group button:focus {
           outline: 0; }
-      #header .textarea .reset.show {
+      #header .textarea .btn-group.show {
         opacity: 1; }
   #header .submit {
     text-align: center; }
@@ -385,6 +387,8 @@ html {
     background: white;
     font-weight: lighter; }
     #content .report span:first-child {
+      -ms-flex-preferred-size: 85px;
+      flex-basis: 85px;
       font-size: 1.25rem; }
     #content .report > span {
       font-size: .75rem;

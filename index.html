@@ -19,12 +19,13 @@
 
             <div class="item textarea">
                 <label for="height">身高 cm</label>
-                <input type="number" name="height" placeholder="請輸入身高（注意單位）">
+                <input type="number" name="height" placeholder="請輸入身高（注意單位）" class="height">
 
                 <label for="weight">體重 kg</label>
-                <input type="number" name="weight" placeholder="請輸入體重 （注意單位）">
-                <div class="reset">
-                    <button>重新輸入</button>
+                <input type="number" name="weight" placeholder="請輸入體重 （注意單位）" class="weight">
+                <div class="btn-group">
+                    <button class="reset">重設</button>
+                    <button class="remove">清除資料</button>
                 </div>
             </div>
             <div class="item submit">
@@ -32,10 +33,7 @@
             </div>
             <div class="item">
                 <div class="result">
-                    <p class="num"></p>
-                    <p class="bmi">BMI</p>
-                    <p class="text"></p>
-                    <img src="imgs/icons_loop.png" alt="loop">
+
                 </div>
             </div>
         </div>
